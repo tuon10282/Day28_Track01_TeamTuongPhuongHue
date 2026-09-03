@@ -1,5 +1,7 @@
 # Memo Quyết Định — Dashboard Hành Động v2
 
+> **Ghi chú đo lường:** Baseline ghi ngày 1 của pilot · QA lấy mẫu 20% câu trả lời mỗi tuần · Đo hằng tuần từ log hệ thống · Review dashboard mỗi 2 tuần với trưởng nhóm
+
 **Nhóm:** Tường – Phương – Huế
 
 **Track:** 01 – Day 28
@@ -20,8 +22,8 @@ Nhân viên CSKH mất nhiều thời gian chuyển qua lại giữa CRM, file q
 
 | # | Nguyên nhân | Bằng chứng trong workflow |
 |---|---|---|
-| 1 | **Độ tin cậy và dữ liệu:** Nguồn tài liệu phân tán, chưa có Data Owner, câu trả lời chưa luôn có trích nguồn và chưa có cơ chế báo lỗi. | Nhân viên phải mở nhiều hệ thống và gặp kết quả AI lệch ngữ cảnh. |
-| 2 | **ADKAR – Desire/Knowledge:** Nhân viên e ngại sai sót và chưa biết cách kiểm tra nguồn hoặc báo lỗi. | Nhân viên chọn cách làm thủ công dù AI đã có trong quy trình. |
+| 1 | **Độ tin cậy và dữ liệu:** Nguồn tài liệu phân tán, chưa có Data Owner, câu trả lời chưa luôn có trích nguồn và chưa có cơ chế báo lỗi. | Quan sát trực tiếp buổi làm việc của 3 nhân viên CSKH (tháng 9/2026): cả 3 đều phải mở song song CRM và file Drive để tra cứu; 2/3 bỏ qua kết quả AI vì trích xuất lệch ngữ cảnh. |
+| 2 | **ADKAR – Desire/Knowledge:** Nhân viên e ngại sai sót và chưa biết cách kiểm tra nguồn hoặc báo lỗi. | Cùng buổi quan sát: khi được hỏi, nhân viên nói "không biết câu trả lời AI lấy từ đâu" và "sợ gửi nhầm thông tin cho khách" — chọn tra thủ công để an toàn hơn. |
 
 ---
 
@@ -54,9 +56,9 @@ Nhóm quyết định **tiếp tục triển khai pilot**, chưa rollout rộng 
 |---|---|
 | Phạm vi | Một nhóm khoảng 5 nhân viên CSKH, tập trung vào tra cứu chính sách đổi trả và lịch sử ticket 6 tháng. |
 | Điều kiện kiểm soát | Nhân viên vẫn giữ quyền quyết định; câu trả lời thiếu nguồn hoặc độ tin cậy thấp phải được cảnh báo và chuyển người. |
-| Cổng 30 ngày | Ít nhất `70%` ticket pilot đi đủ workflow AI, ít nhất `80%` câu trả lời có trích nguồn và đã ghi baseline. |
-| Cổng 60 ngày | Tra cứu thủ công giảm `>=30%`, làm lại sau QA `<20%` và có ít nhất `3` báo lỗi được xử lý thành công. |
-| Cổng 90 ngày | Thời gian xử lý giảm `>=20%` so với baseline và mức tin tưởng AI đạt `>=3.5/5`. |
+| Cổng 30 ngày | ≥70% ticket pilot đi đủ workflow AI · ≥80% câu trả lời có trích nguồn · Baseline ghi đủ ngày 1 *(Đo: log hệ thống AI, tuần 1)* |
+| Cổng 60 ngày | Tra cứu thủ công giảm ≥30% · Làm lại sau QA <20% · ≥3 báo lỗi được xử lý *(Đo: log hằng tuần, QA mẫu 20%)* |
+| Cổng 90 ngày | Thời gian xử lý giảm ≥20% so với baseline · Tin tưởng AI ≥3.5/5 *(Đo: log timestamp CRM + khảo sát ngắn 5 câu)* |
 | Nếu không đạt | Sửa phạm vi, dữ liệu hoặc cách hỗ trợ; chỉ dừng rollout khi các lỗi không được kiểm soát hoặc kết quả nghiệp vụ không cải thiện. |
 
 ---

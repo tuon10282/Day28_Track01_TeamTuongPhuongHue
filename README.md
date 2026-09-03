@@ -46,7 +46,7 @@ Dự án được thực hiện bởi nhóm thành viên:
 
 ### 2.4. Bằng chứng thực tế
 
-Quan sát trực tiếp workflow của nhóm CSKH cho thấy nhân viên liên tục phải bật qua lại giữa file quy chế cũ trên Drive và hệ thống CRM, đồng thời thường xuyên gặp tình trạng kết quả tra cứu tự động trích xuất lệch ngữ cảnh, dẫn đến việc họ tự tra cứu thủ công hoàn toàn.
+Quan sát trực tiếp buổi làm việc của **3 nhân viên CSKH** (tháng 9/2026, nhóm xử lý ticket đổi trả): cả 3 đều phải mở song song CRM và file quy chế trên Drive trong cùng một ticket. **2/3 bỏ qua kết quả tra cứu AI** và chuyển sang tra thủ công vì kết quả AI trích xuất lệch ngữ cảnh (ví dụ: gợi ý chính sách đổi trả không khớp với loại sản phẩm của khách hàng). Khi được hỏi, nhân viên trả lời: *"không biết câu trả lời AI lấy từ đâu"* và *"sợ gửi nhầm thông tin cho khách"* — chọn tra thủ công để an toàn hơn dù mất thêm thời gian.
 
 ### 2.5. Kết luận nguyên nhân gốc
 

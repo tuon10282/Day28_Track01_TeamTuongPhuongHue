@@ -114,7 +114,7 @@ Nút "Báo sai" → Log lỗi → Data Owner review định kỳ → Cải thi�
 | **Mục tiêu cổng** | Xác nhận workflow TO-BE hoạt động với nhóm pilot nhỏ | Xác nhận chất lượng đầu ra và hành vi người dùng thay đổi | Quyết định: mở rộng / điều chỉnh / dừng |
 | **Hành động chính** | Vẽ AS-IS/TO-BE · Khoá phạm vi pilot (1 nhóm ~5 người CSKH) · Chỉ định Data Owner cho 2 nguồn ưu tiên (chính sách đổi trả + lịch sử ticket 6 tháng) · Bật tính năng trích nguồn · Ghi mốc ban đầu | Triển khai nút "Báo sai" · QA mẫu 20% câu trả lời/tuần · Tổ chức 2 buổi thực hành (Knowledge + Ability theo ADKAR) · Theo dõi tỷ lệ làm lại | So sánh với mốc ban đầu · Chốt owner vận hành dài hạn · Kiểm tra governance (quyền truy cập, phạm vi tài liệu) · Quyết định rollout toàn bộ khối CSKH |
 | **Owner** | Trưởng nhóm CSKH + IT | Trưởng nhóm CSKH + Data Owner | Ban quản lý + Trưởng nhóm CSKH |
-| **Dấu hiệu hoàn thành cổng** | ≥80% câu trả lời AI có trích nguồn · Mốc ban đầu đã ghi đủ các chỉ số dashboard v1 | Tỷ lệ tra cứu thủ công giảm ≥30% · Tỷ lệ làm lại sau QA <20% · ≥3 báo lỗi được xử lý thành công | Thời gian xử lý ticket giảm ≥20% so với mốc · Nhân viên pilot đánh giá tin tưởng AI ≥3.5/5 |
+| **Dấu hiệu hoàn thành cổng** | ≥70% ticket pilot đi đủ workflow AI · ≥80% câu trả lời AI có trích nguồn · Mốc ban đầu đã ghi đủ các chỉ số dashboard | Tỷ lệ tra cứu thủ công giảm ≥30% · Tỷ lệ làm lại sau QA <20% · ≥3 báo lỗi được xử lý thành công | Thời gian xử lý ticket giảm ≥20% so với mốc · Nhân viên pilot đánh giá tin tưởng AI ≥3.5/5 |
 
 ### 4.2. Xử lý điểm nghẽn ADKAR theo lộ trình
 

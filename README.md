@@ -77,6 +77,8 @@ Quan sát trực tiếp workflow của nhóm CSKH cho thấy nhân viên liên t
 | 2 | **Người chịu trách nhiệm** — chỉ định Data Owner cho từng nguồn tài liệu (chính sách, quy chế, lịch sử ticket) | Nguyên nhân gốc 1: không ai cập nhật → nhân viên mất niềm tin |
 | 3 | **Cơ chế xử lý khi AI không chắc chắn** — nút "Báo sai" trực tiếp trong workflow + quy trình chuyển người khi độ tin cậy thấp | Nguyên nhân gốc 2: nhân viên không có cách báo lỗi → tích lũy mất tin tưởng |
 
+> **Ngưỡng đo:** Trong giai đoạn pilot, cổng chất lượng yêu cầu ít nhất `80%` câu trả lời AI có trích nguồn. Khi vận hành ổn định, mục tiêu là `100%` câu trả lời có nguồn tài liệu và ngày cập nhật như yêu cầu thiết kế.
+
 ### 3.3. Phân chia công việc Người–AI (Mollick)
 
 | Vùng | Nội dung cụ thể |
@@ -112,7 +114,7 @@ Nút "Báo sai" → Log lỗi → Data Owner review định kỳ → Cải thi�
 | **Mục tiêu cổng** | Xác nhận workflow TO-BE hoạt động với nhóm pilot nhỏ | Xác nhận chất lượng đầu ra và hành vi người dùng thay đổi | Quyết định: mở rộng / điều chỉnh / dừng |
 | **Hành động chính** | Vẽ AS-IS/TO-BE · Khoá phạm vi pilot (1 nhóm ~5 người CSKH) · Chỉ định Data Owner cho 2 nguồn ưu tiên (chính sách đổi trả + lịch sử ticket 6 tháng) · Bật tính năng trích nguồn · Ghi mốc ban đầu | Triển khai nút "Báo sai" · QA mẫu 20% câu trả lời/tuần · Tổ chức 2 buổi thực hành (Knowledge + Ability theo ADKAR) · Theo dõi tỷ lệ làm lại | So sánh với mốc ban đầu · Chốt owner vận hành dài hạn · Kiểm tra governance (quyền truy cập, phạm vi tài liệu) · Quyết định rollout toàn bộ khối CSKH |
 | **Owner** | Trưởng nhóm CSKH + IT | Trưởng nhóm CSKH + Data Owner | Ban quản lý + Trưởng nhóm CSKH |
-| **Dấu hiệu hoàn thành cổng** | ≥80% câu trả lời AI có trích nguồn · Mốc ban đầu đã ghi đủ 5 chỉ số dashboard | Tỷ lệ tra cứu thủ công giảm ≥30% · Tỷ lệ làm lại sau QA <20% · ≥3 báo lỗi được xử lý thành công | Thời gian xử lý ticket giảm ≥20% so với mốc · Nhân viên pilot đánh giá tin tưởng AI ≥3.5/5 |
+| **Dấu hiệu hoàn thành cổng** | ≥80% câu trả lời AI có trích nguồn · Mốc ban đầu đã ghi đủ các chỉ số dashboard v1 | Tỷ lệ tra cứu thủ công giảm ≥30% · Tỷ lệ làm lại sau QA <20% · ≥3 báo lỗi được xử lý thành công | Thời gian xử lý ticket giảm ≥20% so với mốc · Nhân viên pilot đánh giá tin tưởng AI ≥3.5/5 |
 
 ### 4.2. Xử lý điểm nghẽn ADKAR theo lộ trình
 
